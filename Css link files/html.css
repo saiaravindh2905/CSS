@@ -1,0 +1,47 @@
+#a1{
+
+    background-color:bisque
+
+}
+
+
+.c1{
+
+    /*block level element*/
+
+    color: green;
+    font-size: larger;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 1200px;
+    margin-bottom: 50px;
+    
+
+
+}
+
+.c2{
+     /*inline level element*/
+
+    font-size: larger;
+    color: red;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}

@@ -1,0 +1,31 @@
+/*   Descendant selector ( space )   */
+
+div p{
+
+    background-color: aqua;
+       
+}
+
+/*   Child selector  (>)  */
+
+div>p{
+
+    color:yellow;
+}
+
+/*   Adjacent sibling selector (+)*/
+/*   It will select or use only the nearby */
+
+div+p{
+
+    background-color: greenyellow;
+}
+
+/*   General sibling selector (+) */
+
+div~p{
+     
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
