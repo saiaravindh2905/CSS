@@ -1,0 +1,41 @@
+/* First Letter */
+
+p::first-letter{
+    color: red;
+}
+
+/* First Line */
+
+p::first-line{
+    color: orange;
+}
+
+/* before */
+p::before{
+    content: "Hi " ;
+    content: "🙊"; 
+    
+}
+
+/* After */
+p::after{
+
+    content: "Bye";
+    content: "🙉";
+}
+
+/* Selection */
+
+p::selection
+{
+    color:darkred;
+    background-color: yellow;
+}
+
+/* Marker */
+
+ ul li::marker { 
+       
+    font-size:25px;
+
+}
