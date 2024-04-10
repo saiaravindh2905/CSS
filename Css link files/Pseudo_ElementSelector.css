@@ -12,7 +12,7 @@ p::first-line{
 
 /* before */
 p::before{
-    content: "Hi " ;
+    content: " Hi " ;
     content: "🙊"; 
     
 }
@@ -20,7 +20,7 @@ p::before{
 /* After */
 p::after{
 
-    content: "Bye";
+    content: " Bye ";
     content: "🙉";
 }
 
@@ -34,8 +34,12 @@ p::selection
 
 /* Marker */
 
- ul li::marker { 
+ ol li::marker { 
        
     font-size:25px;
+    font-family: cursive;
+    background-color: red;
+    color: orange;
+;
 
 }
