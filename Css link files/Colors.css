@@ -1,55 +1,65 @@
 .red{
-   color:rgb(255, 0,0)
+    color:rgb(255, 0,0)
+ }
+ 
+ .green{
+     color:rgb(0, 255, 0)  
+ }
+ 
+ .blue{
+     color:rgb(0, 0, 255)  
+ }
+ 
+ .pink{
+     color:rgb(255, 0, 255)  
+ }
+ 
+ .yellow{
+     color:rgb(255, 255, 0)  
+ }
+ 
+ .orange{
+     color:rgb(255, 150, 0)  
+ }
+ 
+ .black{
+     color:rgb(0, 0, 0)
+ }
+ 
+ .white{
+     background-color: rgb(0, 0,0);
+     color:rgb(255, 255, 255)
+ }
+ 
+ 
+ 
+ 
+ 
+ .a1{
+     background-color: rgba(155, 100, 200, 0.4);
+                      /* rgba (red, green, blue, alpha[opacity])*/
+ }
+ 
+ .a2{
+     background-color: rgb(200, 200, 200);
+                     /* RGB (red , green, blue) */
+ }
+ 
+ .a3{
+     background-color: hsl(280, 85%, 69%);
+ }
+ 
+ .a4{
+     background-color: hsla(160, 91%, 65%, 1);
+     color: blanchedalmond;
+ }
+    
+.a5{
+    background-color: blue;
+    color: aqua;
 }
 
-.green{
-    color:rgb(0, 255, 0)  
+.a6{
+    color: yellow;
 }
-
-.blue{
-    color:rgb(0, 0, 255)  
-}
-
-.pink{
-    color:rgb(255, 0, 255)  
-}
-
-.yellow{
-    color:rgb(255, 255, 0)  
-}
-
-.orange{
-    color:rgb(255, 150, 0)  
-}
-
-.black{
-    color:rgb(0, 0, 0)
-}
-
-.white{
-    background-color: rgb(0, 0,0);
-    color:rgb(255, 255, 255)
-}
-
-
-
-
-
-.a1{
-    background-color: rgba(155, 100, 200, 0.4);
-                     /* rgba (red, green, blue, alpha[opacity])*/
-}
-
-.a2{
-    background-color: rgb(200, 200, 200);
-                    /* RGB (red , green, blue) */
-}
-
-.a3{
-    background-color: hsl(280, 85%, 69%);
-}
-
-.a4{
-    background-color: hsla(160, 91%, 65%, 1);
-}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           `
+ 
