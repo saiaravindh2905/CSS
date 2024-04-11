@@ -1,0 +1,42 @@
+/*      */
+
+
+[href]{
+color: red;
+background-color: yellow;
+}
+
+
+/*       */
+
+[href = "https://www.swiggy.com/"]{
+color: blue;
+background-color: yellow;
+}
+
+/*        */
+[class ~= "nav"]{
+    background-color: cadetblue;
+}
+
+/*       */
+[class |= "nav"]{
+background-color: green;
+}
+
+
+/*      */
+[class ^="nav"]{
+    font-size: larger;
+}
+
+/*      */
+[class $="nav"]{
+    color: orange;
+}
+
+/*    *=    select all the   */
+[class *="nav"]
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
