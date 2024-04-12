@@ -1,13 +1,26 @@
+body{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/CSS/Images/forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+
+                        
+
+}
+
 div{
  
-     width: 1920px;
-     height: 1080px;
+     width: 1500px;
+     height: 750px;
 /*  background-image: url(/CSS/Images/ball.jpeg); 
     background-repeat: no-repeat;       -- to disable the repeat */
 /*  background-repeat: repeat-x;        -- repeat images in x axis
     background-repeat: repeat-y;        -- repeat images in y axis */
-    background-image: url(/CSS/Images/forest.jpg);
-    background-size: 1280px,1920px;
+
+    background-size: 1900px,1920px;
     background-repeat: no-repeat;
 
 
