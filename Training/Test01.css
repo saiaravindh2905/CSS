@@ -1,0 +1,29 @@
+#mn{
+  
+    text-align: center;
+}
+
+div{
+  
+    background: #eeaeca url(/CSS/Images/rat.png) no-repeat;
+    padding: 10px;
+    background-size: 700px,300px;
+    background-size: contain;
+    background-origin: content-box;
+    background-origin: border-box;
+    background-attachment: fixed;
+    border: 10px dashed red;
+
+}
+
+body{
+   
+    width: 1420px;
+    height: 667px; 
+    background-position: bottom; 
+    background-attachment:fixed;
+    
+    
+ 
+
+}
