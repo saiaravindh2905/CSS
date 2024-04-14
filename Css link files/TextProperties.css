@@ -1,0 +1,29 @@
+p{
+    border : 2px solid red;
+    text-align:start;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    /*  */
+    line-height: 35px;   
+    text-indent: 80px; /* first line spacing */
+    word-break: break-all;
+
+    /* width: 1450px;
+    height: 100px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    
+
+}
+
+
+
+h2{
+    text-align: center;
+    text-decoration:overline;
+    text-transform: uppercase;
+   /* Text shadow: x y blur color */
+    text-shadow: 3px 3px 8px red
+
+}

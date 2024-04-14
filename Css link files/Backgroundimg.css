@@ -6,24 +6,45 @@ body{
     background-position: center ;
     background-attachment: fixed;
     background-size: cover;
+    background-image: linear-gradient(to bottom left,#94bbe9,#eeaeca);
+    background-color: #94bbe9,#eeaeca;
+
+
+    
+
+    /*  background-image: url(/CSS/Images/ball.jpeg); 
+    background-repeat: no-repeat;       -- to disable the repeat */
+/*  background-repeat: repeat-x;        -- repeat images in x axis
+    background-repeat: repeat-y;        -- repeat images in y axis */
 
                         
 
 }
 
-div{
- 
-     width: 1500px;
-     height: 750px;
-/*  background-image: url(/CSS/Images/ball.jpeg); 
-    background-repeat: no-repeat;       -- to disable the repeat */
-/*  background-repeat: repeat-x;        -- repeat images in x axis
-    background-repeat: repeat-y;        -- repeat images in y axis */
-
-    background-size: 1900px,1920px;
-    background-repeat: no-repeat;
-
-
+#p1{
     
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+
+     
+}
+
+#bd{
+   
+    width: 350px;
+    height: 200px;
+    background-color: #fcb045;
+    font-size: larger;
+    font-weight: 900;  
+    border: 4px dotted blueviolet;
+    padding: 15px;
+    /* background-clip: border-box;
+    background-clip: padding-box; */
+    background-clip: content-box;
+    padding-left: 250px;
+
 
 }
