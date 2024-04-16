@@ -1,0 +1,31 @@
+div{
+  width: 450px;
+  height: 450px;
+  border: 2px solid black;
+  border-right-width: 20px;
+  border-top-width:5px;
+  border-bottom-width: 20px;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+
+
+}
+
+h2{
+  
+     font-size: xx-large;
+     text-transform: uppercase;
+     text-align: center;
+
+}
+
+ul li{
+
+    text-transform: capitalize;
+    list-style:decimal-leading-zero;
+    list-style-position: outside;
+    font-size: x-large;
+
+}
