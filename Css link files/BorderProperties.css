@@ -1,4 +1,4 @@
-div{
+.c1{
   width: 450px;
   height: 450px;
   border: 2px solid black;
@@ -6,12 +6,54 @@ div{
   border-top-width:5px;
   border-bottom-width: 20px;
   padding: 10px;
+ 
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  margin-left: 120px;
+  outline: 20px solid orange;
+  outline-offset: 5px;
+  cursor: not-allowed; 
+
   
 
 
+
 }
+
+.c2
+{
+  width: 350px;
+  height: 350px;
+  background-color: darkblue;
+  outline: 10px dashed red;
+  margin-left: 120px;
+  cursor: all-scroll;
+  cursor: grab;
+  cursor: grabbing;
+  cursor: none;
+  cursor: not-allowed; 
+  padding-top: 15px;
+  padding-left: 15px;
+  color: white;
+  
+}
+
+.c2 img{
+  float : left;
+  pad: 5px;
+}
+
+.c3{
+  
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.c3 img{
+
+  float: left;
+
+}
+
 
 h2{
   
@@ -24,8 +66,10 @@ h2{
 ul li{
 
     text-transform: capitalize;
-    list-style:decimal-leading-zero;
+    list-style:square;
     list-style-position: outside;
     font-size: x-large;
 
 }
+
+
