@@ -1,0 +1,15 @@
+.parent{
+   width: 100%;
+   height: 100vh;
+   background-color: greenyellow;
+
+}
+
+.parent > .ch1{
+
+    width: 20%;
+    height: 20%;
+    background-color: red;
+
+
+}
